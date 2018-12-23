@@ -1,6 +1,6 @@
 {
     "core": {
-        "token": "A Discord bot token",
+        "token": "NTI2MjU1MzQyNDEwMTM3NjAw.DwEhkA.ufx09ZKiXLr9WqbDDWfIBvpyYRU",
         "prefix": "%"
     },
     "database": {
@@ -15,8 +15,8 @@
     "stats": {
         "dbots": {
             "enabled": false,
-            "token": "Discord Bots API token",
-            "bot_id": "Discord Bots bot ID"
+            "token": "NTI2MjU1MzQyNDEwMTM3NjAw.DwEhkA.ufx09ZKiXLr9WqbDDWfIBvpyYRU",
+            "bot_id": "J9sYB4eVieGO0RiEIneAXKwnMDBMj5O4"
         }
     },
     "influx": {
