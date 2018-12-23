@@ -34,7 +34,7 @@
         "usedash": false
     },
     "raven": {
-        "url": "xd"
+        "url": "https://git.heroku.com/log-discord.git"
     },
     "shardMode": false,
     "shardCount": 4
