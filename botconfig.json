@@ -33,6 +33,9 @@
     "dev": {
         "usedash": false
     },
+    "raven": {
+        "url": "xd"
+    },
     "shardMode": false,
     "shardCount": 4
 }
