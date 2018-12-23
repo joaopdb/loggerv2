@@ -34,7 +34,7 @@
         "usedash": false
     },
     "raven": {
-        "url": "xd"
+        "url": "https://1e4421707f0c400a8003684e3806b961@sentry.io/1359383"
     },
     "shardMode": false,
     "shardCount": 4
