@@ -8,10 +8,6 @@
     "build-babel": "babel -d ./build ./src -s",
     "build": "npm run clean && npm run build-babel",
     "start": "npm run build && node ./Logger.js"
-    
-    "start": "babel-node Logger.js",
-    "test": "standard && eslint **",
-    "build": "rm -rf dist && babel . --ignore doc,rethinkdb_data,node_modules,dump.rdb,README.md --out-dir dist --copy-files"
   },
   "repository": {
     "type": "git",
