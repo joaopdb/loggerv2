@@ -4,10 +4,9 @@
   "version": "2.5.0",
   "description": "A simple Discord bot for logging different events in your Discord server.",
   "scripts": {
-    "clean": "rm -rf build && mkdir build",
-    "build-babel": "babel -d ./build ./src -s",
-    "build": "npm run clean && npm run build-babel",
-    "start": "npm run build && node ./build/Logger.js"
+    "start": "babel-node Logger.js",
+    "test": "standard && eslint **",
+    "build": "rm -rf dist && babel . --ignore doc,rethinkdb_data,node_modules,dump.rdb,README.md --out-dir dist --copy-files"
   },
   "repository": {
     "type": "git",
